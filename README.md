@@ -6,7 +6,7 @@ Available Calls:
 {
     "DeviceRegistration": "/v1/devices/123456/salt/9876",
     "Session": "/v1/nonce/98317653/session/992021355",
-    "Action": "/v1/action/action/dosomething/nonce/66218932/session/275262287"
+    "Action": "/v1/action/dosomething/nonce/66218932/session/275262287"
 }
 ```
 
