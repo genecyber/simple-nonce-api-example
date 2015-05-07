@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Nonce Demo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script>
+        $(document).ready(function(){
+            var obj = {{{info}}}
+            
+            document.body.innerHTML = "";
+            document.body.appendChild(document.createTextNode(JSON.stringify(obj, null, 4)));
+        })
+        
+        
+    </script>
+    <style>body { white-space: pre; font-family: monospace; }</style>
+</head>
+<body>
+
+    {{{body}}}
+
+</body>
+</html>
